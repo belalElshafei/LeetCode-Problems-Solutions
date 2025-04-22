@@ -1,3 +1,8 @@
+/**
+ * @file 2145. Count the Hidden Sequences.cpp
+ * @brief Solution for the problem using prefix sum and binary search.
+ * @details To understand the idea , visit the video (https://www.youtube.com/watch?v=3E9m4soD9cE&t=6s) video is the same idea, but we used another approach (binary search).
+ */
 class Solution {
 public:
     int  binarySearchMx(long long mxPrefix,long long mnPrefix,int lower,int upper){
